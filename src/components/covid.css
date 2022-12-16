@@ -1,0 +1,74 @@
+/* { Basic Styling but it will help you } */
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+h1,h2{
+    text-align: center;
+    color: white;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+
+.card{
+     background-color:rgb(68, 66, 66);
+     /* width: calc(76%/4); */
+     width: 300px;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.one{
+    background-color: rgb(250, 54, 54);
+}
+
+.two{
+    background-color: green;
+}
+
+.three{
+    background-color: blue;
+}
+
+.four{
+    background-color: rgb(142, 142, 34);
+}
+
+.five{
+    background-color: orange;
+}
+
+.six{
+    background-color: peru;
+}
+
+
+.card:hover{
+    transform:scale(1.1);
+} 
+
+.card__name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card__name span {
+    font-size: 15px;
+}
+
+.card__total {
+    font-size: 200%;
+    font-weight: bold;
+
+}
